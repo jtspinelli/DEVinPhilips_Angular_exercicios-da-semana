@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormCadastroMateriasComponent } from './part1/form-cadastro-materias/form-cadastro-materias.component';
 import { NavbarComponent } from './part1/navbar/navbar.component';
+import {Part1AppComponent} from "./part1/part1.app.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     FormCadastroMateriasComponent,
-    NavbarComponent
+    NavbarComponent,
+    Part1AppComponent
   ],
   imports: [
     BrowserModule,
