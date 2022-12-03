@@ -9,6 +9,7 @@ import { Part1AppComponent } from "./M1S09/part1/part1.app.component";
 import { Part2AppComponent } from "./M1S09/part2/part2.app.component";
 import { Part3AppComponent } from "./M1S09/part3/part3.app.component";
 import { FavoriteSeriesCardComponent } from './M1S09/part2/favorite-series-card/favorite-series-card.component';
+import { FormRegistroComponent } from './M1S09/part3/form-registro/form-registro.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FavoriteSeriesCardComponent } from './M1S09/part2/favorite-series-card/
     Part1AppComponent,
     Part2AppComponent,
     Part3AppComponent,
-    FavoriteSeriesCardComponent
+    FavoriteSeriesCardComponent,
+    FormRegistroComponent
   ],
   imports: [
     BrowserModule,
