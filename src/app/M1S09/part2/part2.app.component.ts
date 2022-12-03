@@ -23,6 +23,6 @@ export class Part2AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    document.body.classList.add("part2-body");
+    document.body.classList.add("m1s09-part2-body");
   }
 }
