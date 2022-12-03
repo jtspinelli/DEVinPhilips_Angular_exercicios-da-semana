@@ -15,6 +15,7 @@ import { FavoriteSeriesCardComponent } from './M1S09/part2/favorite-series-card/
 import { FormRegistroComponent } from './M1S09/part3/form-registro/form-registro.component';
 import { BuscaComponent } from './M1S09/part4/busca/busca.component';
 import { HeaderComponent } from './M1S08/components/header/header.component';
+import { FooterComponent } from './M1S08/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HeaderComponent } from './M1S08/components/header/header.component';
     FavoriteSeriesCardComponent,
     FormRegistroComponent,
     BuscaComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
