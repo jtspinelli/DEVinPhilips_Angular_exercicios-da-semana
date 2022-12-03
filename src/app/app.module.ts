@@ -16,6 +16,7 @@ import { FormRegistroComponent } from './M1S09/part3/form-registro/form-registro
 import { BuscaComponent } from './M1S09/part4/busca/busca.component';
 import { HeaderComponent } from './M1S08/components/header/header.component';
 import { FooterComponent } from './M1S08/components/footer/footer.component';
+import { NotificationListComponent } from './M1S08/components/notification-list/notification-list.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FooterComponent } from './M1S08/components/footer/footer.component';
     FormRegistroComponent,
     BuscaComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NotificationListComponent
   ],
   imports: [
     BrowserModule,
