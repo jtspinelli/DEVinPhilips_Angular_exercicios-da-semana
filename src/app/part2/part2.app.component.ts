@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'part2-root',
   templateUrl: './part2.app.component.html',
   styleUrls: ['./part2.app.component.scss']
 })
-export class Part2AppComponent {
+export class Part2AppComponent implements OnInit {
   character:any = {
     nome: 'Kleo Straub',
     imagem: 'assets/Kleo.jpg',
@@ -20,5 +20,9 @@ export class Part2AppComponent {
       {nome: 'destreza', stars: 5},
       {nome: 'social', stars: 1}
     ]
+  }
+
+  ngOnInit() {
+    document.body.classList.add("part2-body");
   }
 }
