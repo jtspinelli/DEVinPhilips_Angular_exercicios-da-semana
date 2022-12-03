@@ -14,6 +14,7 @@ import { NotifyAppComponent } from "./M1S08/notify.app.component";
 import { FavoriteSeriesCardComponent } from './M1S09/part2/favorite-series-card/favorite-series-card.component';
 import { FormRegistroComponent } from './M1S09/part3/form-registro/form-registro.component';
 import { BuscaComponent } from './M1S09/part4/busca/busca.component';
+import { HeaderComponent } from './M1S08/components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BuscaComponent } from './M1S09/part4/busca/busca.component';
     NotifyAppComponent,
     FavoriteSeriesCardComponent,
     FormRegistroComponent,
-    BuscaComponent
+    BuscaComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
