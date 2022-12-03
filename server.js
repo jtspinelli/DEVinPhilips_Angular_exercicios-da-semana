@@ -8,7 +8,12 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/dist/exercicios-da-semana'));
 app.use(express.static(__dirname + '/node_modules'));
 
-app.get("*", (req, res) => {
-  // res.sendFile('C:/Users/jonat/Desktop/ng-oauth/dist/ng-oauth/index.html')
-  res.sendFile(__dirname + '/index.html');
+app.use(function(req, res, next) {
+  res.sendFile(__dirname + "/dist/exercicios-da-semana/index.html");
 })
+
+app.listen(port, function () {
+  console.log("running on " + port)
+})
+
+module.exports = app;
