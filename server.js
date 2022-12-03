@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/dist/exercicios-da-semana'));
 app.use(express.static(__dirname + '/node_modules'));
 
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(__dirname + "/dist/exercicios-da-semana/index.html");
 })
 
