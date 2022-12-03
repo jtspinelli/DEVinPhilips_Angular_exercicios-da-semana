@@ -1,1 +1,26 @@
-<p>notification-list works!</p>
+<ul class="list-group">
+  <li *ngFor="let notification of getNotifications(); let i = index;" class="list-group-item" [ngClass]="{'lido': notification.lido}">
+    <div class="notification-header">
+      <div class="app-info">
+        <i [class]="notification.iconClasses"></i>
+        <span>  {{ notification.appName }}  </span>
+        <div class="date"> {{ notification.date.toLocaleTimeString('pt-BR', {hour: '2-digit', minute:'2-digit'}) }} </div>
+      </div>
+
+      <div>
+        <button type="button" class="btn btn-primary btn-lido" (click)="checkRead(i)">lido</button>
+      </div>
+    </div>
+
+    <h4> {{ notification.title }} </h4>
+
+    <h5> {{ notification.subtitle }} </h5>
+  </li>
+</ul>
+
+<div class="spinner" *ngIf="loading">
+  <div class="spinner-border text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
+
