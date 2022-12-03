@@ -7,6 +7,7 @@ import { FormCadastroMateriasComponent } from './part1/form-cadastro-materias/fo
 import { NavbarComponent } from './part1/navbar/navbar.component';
 import {Part1AppComponent} from "./part1/part1.app.component";
 import {Part2AppComponent} from "./part2/part2.app.component";
+import { FavoriteSeriesCardComponent } from './part2/favorite-series-card/favorite-series-card.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {Part2AppComponent} from "./part2/part2.app.component";
     FormCadastroMateriasComponent,
     NavbarComponent,
     Part1AppComponent,
-    Part2AppComponent
+    Part2AppComponent,
+    FavoriteSeriesCardComponent
   ],
   imports: [
     BrowserModule,
