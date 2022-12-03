@@ -10,6 +10,7 @@ import { Part2AppComponent } from "./M1S09/part2/part2.app.component";
 import { Part3AppComponent } from "./M1S09/part3/part3.app.component";
 import { FavoriteSeriesCardComponent } from './M1S09/part2/favorite-series-card/favorite-series-card.component';
 import { FormRegistroComponent } from './M1S09/part3/form-registro/form-registro.component';
+import { BuscaComponent } from './M1S09/part4/busca/busca.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormRegistroComponent } from './M1S09/part3/form-registro/form-registro
     Part2AppComponent,
     Part3AppComponent,
     FavoriteSeriesCardComponent,
-    FormRegistroComponent
+    FormRegistroComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,
