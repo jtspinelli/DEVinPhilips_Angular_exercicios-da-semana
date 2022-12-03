@@ -6,6 +6,11 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./part4.app.component.scss']
 })
 export class Part4AppComponent implements OnInit{
+
+  printData(event: string) {
+    console.log(event);
+  }
+
   ngOnInit() {
     document.body.classList.add("m1s09-part4-body");
   }
