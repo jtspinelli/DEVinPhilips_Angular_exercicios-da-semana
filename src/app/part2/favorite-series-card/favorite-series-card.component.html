@@ -1,1 +1,31 @@
-<p>favorite-series-card works!</p>
+<div class="card" style="width: 18rem;">
+  <img [src]="character.imagem" class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5>{{character.nome}}</h5>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="card-text">
+            {{character.descricao}}
+          </p>
+
+          <div class="actor-info">
+            <a [href]="character.ator.link" target="_blank"><span>{{character.ator.prefixo}} </span>{{character.ator.nome}}</a>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <ul class="list-group list-group-flush">
+            <li *ngFor="let skill of character.skills" class="list-group-item">
+              <span>{{skill.nome}} </span>
+              <i *ngFor="let filledStar of [].constructor(skill.stars)" class="fa-solid fa-star"></i>
+              <i *ngFor="let emptyStar of [].constructor(5 - skill.stars)" class="fa-regular fa-star"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

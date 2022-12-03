@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'favorite-series-card',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./favorite-series-card.component.scss']
 })
 export class FavoriteSeriesCardComponent {
-
+  @Input() character:any = {};
 }
