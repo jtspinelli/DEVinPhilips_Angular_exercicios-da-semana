@@ -2,12 +2,12 @@
   <form #form class="d-flex flex-column" (submit)="submitForm($event)">
     <div class="mb-3">
       <label class="form-label" for="email">Email</label>
-      <input (keyup)="setEmail($event)" class="form-control" id="email" type="text" required>
+      <input (keyup)="setEmail($event)" class="form-control" id="email" type="text">
     </div>
 
     <div class="mb-4">
       <label class="form-label" for="password">Password</label>
-      <input (keyup)="setPassword($event)" class="form-control" id="password" type="password" required>
+      <input (keyup)="setPassword($event)" class="form-control" id="password" type="password">
     </div>
 
     <button class="btn btn-primary" type="submit">Enviar</button>
