@@ -1,27 +1,19 @@
-# ExerciciosDaSemana
+# DEVin[Philips] - NgExerciciosDaSemana
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Este projeto utilizou [Angular CLI](https://github.com/angular/angular-cli) versão 15.0.0.
 
-## Development server
+## Rodando a aplicação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Rode `ng build` para gerar os arquivos da aplicação. Os arquivos serão armazenados no diretório `dist/`.
 
-## Code scaffolding
+Rode `npm start` e dirija-se à `localhost:3000` para acessar a aplicação.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Acessando os exercícios
+- **M1S08**: [App de Notificações](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S08): dirija-se a `localhost:3000/m1s08`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **M1S09**
+  - [Parte 1: Formulário Bootstrap](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part1): dirija-se a `localhost:3000/m1s09/part1`
+  - [Parte 2: Card de série favorita](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part2): dirija-se a `localhost:3000/m1s09/part2`
+  - [Parte 3: Registro de Usuários](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part3): dirija-se a `localhost:3000/m1s09/part3`
+  - [Parte 4: Testando EventEmitter](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part4): dirija-se a `localhost:3000/m1s09/part4`
