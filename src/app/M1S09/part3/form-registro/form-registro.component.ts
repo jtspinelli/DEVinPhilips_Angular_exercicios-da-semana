@@ -1,6 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { RegistroUsuarioService } from "../services/registro-usuario.service";
 import { User } from "../models/user";
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'form-registro',
@@ -14,24 +15,17 @@ export class FormRegistroComponent {
     });
   }
 
-  newUser = new User("", "");
+  newUser:User = new User("", "");
 
   @ViewChild('form') form:HTMLFormElement;
 
-  submitForm(event: any) {
-    event.preventDefault();
+  submitForm(form: NgForm) {
+    this.newUser.email = form.value.email;
+    this.newUser.password = form.value.password;
 
     if(this.invalidEmail || this.invalidPassword) return;
 
     this.registroService.createUser(this.newUser);
-  }
-
-  setEmail(event: any) {
-    this.newUser.setEmail(event.target.value);
-  }
-
-  setPassword(event: any) {
-    this.newUser.setPassword(event.target.value);
   }
 
   get validEmail() {
@@ -63,9 +57,8 @@ export class FormRegistroComponent {
   }
 
   resetForm() {
-    this.form['nativeElement'].reset();
+    this.form.reset();
     this.newUser.email = "";
     this.newUser.password = "";
   }
-
 }

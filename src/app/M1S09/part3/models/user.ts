@@ -6,12 +6,4 @@ export class User {
     this.email = email;
     this.password = password;
   }
-
-  public setEmail(value:string) {
-    this.email = value;
-  }
-
-  public setPassword(value:string) {
-    this.password = value;
-  }
 }
