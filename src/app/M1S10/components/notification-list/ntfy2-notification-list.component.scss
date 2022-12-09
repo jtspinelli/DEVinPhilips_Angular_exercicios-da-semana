@@ -1,0 +1,56 @@
+.btn-primary {
+  background-color: #ef3f3f;
+  border-color: #ef3f3f;
+}
+
+.btn-primary:hover {
+  background-color: #c42727;
+}
+
+.lido {
+  opacity: .3;
+
+  button {
+    background-color: grey;
+    border-color: grey;
+  }
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+
+  .app-info {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    margin-bottom: 15px;
+  }
+
+  .btn-lido {
+    padding: 0 20px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+li {
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+}
+
+div.spinner-border.text-primary {
+  color: #ef3f3f !important;
+  margin-top: 20px;
+}
