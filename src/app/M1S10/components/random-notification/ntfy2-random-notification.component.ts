@@ -58,8 +58,4 @@ export class Ntfy2RandomNotificationComponent {
   capitalize(string:string) {
     return `${string[0].toUpperCase()}${string.substring(1)}`;
   }
-
-  ngOnInit(){
-    console.log("oieeee")
-  }
 }

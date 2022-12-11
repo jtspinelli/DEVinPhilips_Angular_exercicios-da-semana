@@ -8,7 +8,7 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class Ntfy2FiltroComponent {
   @Output() filter: EventEmitter<string> = new EventEmitter<string>();
 
-  emitFilter() {
-    this.filter.emit();
+  emitFilter(type: string) {
+    this.filter.emit(type);
   }
 }
