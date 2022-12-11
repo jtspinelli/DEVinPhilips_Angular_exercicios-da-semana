@@ -1,5 +1,5 @@
 <ul class="list-group list-group-horizontal mb-3">
-  <li class="list-group-item btn-outline-secondary active" (click)="emitFilter('todos')"> Todos </li>
-  <li class="list-group-item" (click)="emitFilter('nao-lidos')"> Não lidos </li>
-  <li class="list-group-item" (click)="emitFilter('lidos')"> Lidos </li>
+  <li #li *ngFor="let filterOption of filterOptions" [class]="filterOption.class" (click)="emitFilter($event, filterOption.type)">
+    {{ filterOption.textContent }}
+  </li>
 </ul>
