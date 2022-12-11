@@ -23,6 +23,7 @@ import { NotificationListComponent } from './M1S08/components/notification-list/
 import { Ntfy2NotificationListComponent } from "./M1S10/components/notification-list/ntfy2-notification-list.component";
 import { RandomNotificationComponent } from './M1S08/components/random-notification/random-notification.component';
 import { Ntfy2RandomNotificationComponent } from "./M1S10/components/random-notification/ntfy2-random-notification.component";
+import { Ntfy2FiltroComponent } from './M1S10/components/ntfy2-filtro/ntfy2-filtro.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { Ntfy2RandomNotificationComponent } from "./M1S10/components/random-noti
     NotificationListComponent,
     Ntfy2NotificationListComponent,
     RandomNotificationComponent,
-    Ntfy2RandomNotificationComponent
+    Ntfy2RandomNotificationComponent,
+    Ntfy2FiltroComponent
   ],
   imports: [
     BrowserModule,
