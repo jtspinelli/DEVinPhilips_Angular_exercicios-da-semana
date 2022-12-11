@@ -17,3 +17,5 @@ Rode `npm start` e dirija-se à `localhost:3000` para acessar a aplicação.
   - [Parte 2: Card de série favorita](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part2): dirija-se a `localhost:3000/m1s09/part2`
   - [Parte 3: Registro de Usuários](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part3): dirija-se a `localhost:3000/m1s09/part3`
   - [Parte 4: Testando EventEmitter](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S09/part4): dirija-se a `localhost:3000/m1s09/part4`
+
+- **M1S10**: [App de Notificações (2ª Versão)](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/tree/master/src/app/M1S10): dirija-se a `localhost:3000/m1s10`
