@@ -1,0 +1,16 @@
+li {
+  --dark-grey: #6c757d;
+  --light-grey: #d0d5d9;
+
+  &.list-group-item.active {
+    background-color: var(--dark-grey);
+    border-color: var(--dark-grey)
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--light-grey);
+    border-color: var(--light-grey)
+  }
+}
+
