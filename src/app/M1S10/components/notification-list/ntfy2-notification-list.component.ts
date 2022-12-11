@@ -32,6 +32,7 @@ export class Ntfy2NotificationListComponent {
   notifications: AppNotification[];
 
   loading:boolean = false;
+  nothingToShow:boolean = false;
 
   checkRead(notificationIndex:number) {
     this.notifications[notificationIndex].lido = true;
@@ -55,6 +56,7 @@ export class Ntfy2NotificationListComponent {
         this.notifications = [...AppNotification.pool.filter(e => !e.lido)]
         break;
     }
+     this.nothingToShow = this.notifications.length === 0;
   }
 
 }
