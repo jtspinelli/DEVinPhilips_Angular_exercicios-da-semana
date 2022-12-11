@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'ntfy2-filtro',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./ntfy2-filtro.component.scss']
 })
 export class Ntfy2FiltroComponent {
+  @Output() filter: EventEmitter<string> = new EventEmitter<string>();
 
+  emitFilter() {
+    this.filter.emit();
+  }
 }
