@@ -7,6 +7,7 @@ import { Part4AppComponent } from "./M1S09/part4/part4.app.component";
 import { NotifyAppComponent } from "./M1S08/notify.app.component";
 import { Ntfy2AppComponent } from "./M1S10/ntfy2.app.component";
 import {Ntfy2HomeComponent} from "./M1S10/pages/home/ntfy2-home.component";
+import {Ntfy2AboutComponent} from "./M1S10/pages/ntfy2-about/ntfy2-about.component";
 
 const routes: Routes = [
   {path: 'm1s09/part1', component: Part1AppComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'm1s10', component: Ntfy2AppComponent, children: [
       {path: '', component: Ntfy2HomeComponent},
       {path: 'home/:filtro', component: Ntfy2HomeComponent},
+      {path: 'about', component: Ntfy2AboutComponent}
     ]},
 ];
 
