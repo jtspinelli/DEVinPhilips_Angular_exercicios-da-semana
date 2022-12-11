@@ -13,7 +13,7 @@ Esta aplicação [**Angular**](https://angular.io/) apresenta notificações pad
 
 ## It's LIVE
 
-Aplicação pode ser acessada [**online**](https://dih-philips-ng-week-exercises.herokuapp.com/m1s08).
+Aplicação pode ser acessada [**online**](https://dih-philips-ng-week-exercises.herokuapp.com/m1s10/home).
 
 <br>
 
@@ -32,9 +32,9 @@ As notificações aleatórias:
 
 <br>
 
-## Classe Adsdasd
+## Classe AppNotification
 
-Cada notificação é uma instância da classe [Adsdasd](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/blob/master/src/app/M1S08/models/AppNotification.ts).
+Cada notificação é uma instância da classe [AppNotification](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/blob/master/src/app/M1S08/models/AppNotification.ts).
 
 A classe possui uma [variável estática](https://github.com/jtspinelli/DEVinPhilips_Angular_exercicios-da-semana/blob/8072724e77a39dc9d4ec33d3d7a2d61e406448b7/src/app/M1S08/models/AppNotification.ts#L8) que armazena todas as instâncias, para fácil acesso às notificações.
 
