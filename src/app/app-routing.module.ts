@@ -17,6 +17,7 @@ const routes: Routes = [
   {path: 'm1s08', component: NotifyAppComponent},
   {path: 'm1s10', component: Ntfy2AppComponent, children: [
       {path: '', component: Ntfy2HomeComponent},
+      {path: 'home', component: Ntfy2HomeComponent},
       {path: 'home/:filtro', component: Ntfy2HomeComponent},
       {path: 'about', component: Ntfy2AboutComponent}
     ]},
