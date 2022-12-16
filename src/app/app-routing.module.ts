@@ -8,6 +8,7 @@ import { NotifyAppComponent } from "./M1S08/notify.app.component";
 import { Ntfy2AppComponent } from "./M1S10/ntfy2.app.component";
 import {Ntfy2HomeComponent} from "./M1S10/pages/home/ntfy2-home.component";
 import {Ntfy2AboutComponent} from "./M1S10/pages/ntfy2-about/ntfy2-about.component";
+import {M1s11AppComponent} from "./M1S11/m1s11.app.component";
 
 const routes: Routes = [
   {path: 'm1s09/part1', component: Part1AppComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
       {path: 'home/:filtro', component: Ntfy2HomeComponent},
       {path: 'about', component: Ntfy2AboutComponent}
     ]},
+  {path: 'm1s11', component: M1s11AppComponent}
 ];
 
 @NgModule({

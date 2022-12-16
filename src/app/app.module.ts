@@ -26,6 +26,8 @@ import { Ntfy2RandomNotificationComponent } from "./M1S10/components/random-noti
 import { Ntfy2FiltroComponent } from './M1S10/components/ntfy2-filtro/ntfy2-filtro.component';
 import { Ntfy2HomeComponent } from './M1S10/pages/home/ntfy2-home.component';
 import { Ntfy2AboutComponent } from './M1S10/pages/ntfy2-about/ntfy2-about.component';
+import {M1s11AppComponent} from "./M1S11/m1s11.app.component";
+import { CaptalizePhillipsPipe } from './M1S11/pipes/captalize-phillips.pipe';
 
 @NgModule({
   declarations: [
@@ -51,7 +53,9 @@ import { Ntfy2AboutComponent } from './M1S10/pages/ntfy2-about/ntfy2-about.compo
     Ntfy2RandomNotificationComponent,
     Ntfy2FiltroComponent,
     Ntfy2HomeComponent,
-    Ntfy2AboutComponent
+    Ntfy2AboutComponent,
+    M1s11AppComponent,
+    CaptalizePhillipsPipe
   ],
   imports: [
     BrowserModule,
