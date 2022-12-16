@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class M1s11AppComponent {
 
+  constructor() {
+    document.body.classList.add("m1s11-part1-body");
+  }
+
+  phrase:string = "amanhã vai ser outro dia";
+  author:string = "chico buarque";
 }
