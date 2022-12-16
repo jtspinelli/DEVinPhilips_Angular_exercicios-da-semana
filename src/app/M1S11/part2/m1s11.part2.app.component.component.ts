@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./m1s11.part2.app.component.component.scss']
 })
 export class M1s11Part2AppComponentComponent {
+  page:string = "";
 
+  teste() {
+    this.page = 'precos';
+    console.log(this.page);
+  }
 }
