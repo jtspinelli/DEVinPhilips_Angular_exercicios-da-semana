@@ -27,7 +27,7 @@ import { Ntfy2FiltroComponent } from './M1S10/components/ntfy2-filtro/ntfy2-filt
 import { Ntfy2HomeComponent } from './M1S10/pages/home/ntfy2-home.component';
 import { Ntfy2AboutComponent } from './M1S10/pages/ntfy2-about/ntfy2-about.component';
 import {M1s11AppComponent} from "./M1S11/m1s11.app.component";
-import { CaptalizePhillipsPipe } from './M1S11/pipes/captalize-phillips.pipe';
+import { CapitalizePhillipsPipe } from './M1S11/pipes/capitalize-phillips.pipe';
 
 @NgModule({
   declarations: [
@@ -55,7 +55,7 @@ import { CaptalizePhillipsPipe } from './M1S11/pipes/captalize-phillips.pipe';
     Ntfy2HomeComponent,
     Ntfy2AboutComponent,
     M1s11AppComponent,
-    CaptalizePhillipsPipe
+    CapitalizePhillipsPipe
   ],
   imports: [
     BrowserModule,
