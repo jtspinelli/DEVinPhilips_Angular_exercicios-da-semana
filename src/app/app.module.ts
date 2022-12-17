@@ -30,6 +30,7 @@ import { M1s11AppComponent } from "./M1S11/m1s11.app.component";
 import { CapitalizePhillipsPipe } from './M1S11/part1/pipes/capitalize-phillips.pipe';
 import { M1s11Part1AppComponentComponent } from './M1S11/part1/m1s11.part1.app.component.component';
 import { M1s11Part2AppComponentComponent } from './M1S11/part2/m1s11.part2.app.component.component';
+import { M1s11Part3AppComponentComponent } from './M1S11/part3/m1s11.part3.app.component.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { M1s11Part2AppComponentComponent } from './M1S11/part2/m1s11.part2.app.c
     M1s11AppComponent,
     CapitalizePhillipsPipe,
     M1s11Part1AppComponentComponent,
-    M1s11Part2AppComponentComponent
+    M1s11Part2AppComponentComponent,
+    M1s11Part3AppComponentComponent
   ],
   imports: [
     BrowserModule,
