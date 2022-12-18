@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./m1s11.part4.app.component.component.scss']
 })
 export class M1s11Part4AppComponentComponent {
-
+  showModal:boolean = false;
 }
