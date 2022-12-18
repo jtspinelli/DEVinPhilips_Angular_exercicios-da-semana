@@ -36,6 +36,7 @@ import { M1s11Part4ModalComponent } from './M1S11/part4/m1s11.part4.modal/m1s11.
 import { M1s11Part5Component } from './M1S11/part5/m1s11.part5.component';
 import { M1s11Part5CardComponent } from './M1S11/part5/m1s11.part5.card/m1s11.part5.card.component';
 import { M1s11Part6Component } from './M1S11/part6/m1s11.part6.component';
+import { M1s11Part7Component } from './M1S11/part7/m1s11.part7.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { M1s11Part6Component } from './M1S11/part6/m1s11.part6.component';
     M1s11Part4ModalComponent,
     M1s11Part5Component,
     M1s11Part5CardComponent,
-    M1s11Part6Component
+    M1s11Part6Component,
+    M1s11Part7Component
   ],
   imports: [
     BrowserModule,
