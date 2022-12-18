@@ -1,1 +1,25 @@
-<p>m1s11.part7 works!</p>
+<div class="container mt-5">
+  <form #form>
+    <input #input (keyup)="check()" type="text" class="form-control" required>
+
+    <button (click)="addTodo()" type="submit" class="btn btn-primary form-control" [disabled]="!inputIsValid">Inserir</button>
+  </form>
+
+  <div *ngIf="todos.length > 0; then todoList else noTodosMessage"></div>
+
+  <ng-template #todoList>
+    <ul>
+      <li *ngFor="let todo of todos">
+
+        {{ todo.task }}
+        <div>
+          <i (click)="confirm(todo)" class="fa-solid fa-trash"></i>
+        </div>
+      </li>
+    </ul>
+  </ng-template>
+
+  <ng-template #noTodosMessage>
+    <p>Nada a exibir</p>
+  </ng-template>
+</div>
