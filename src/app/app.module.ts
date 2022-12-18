@@ -33,6 +33,7 @@ import { M1s11Part2AppComponentComponent } from './M1S11/part2/m1s11.part2.app.c
 import { M1s11Part3AppComponentComponent } from './M1S11/part3/m1s11.part3.app.component.component';
 import { M1s11Part4AppComponentComponent } from './M1S11/part4/m1s11.part4.app.component.component';
 import { M1s11Part4ModalComponent } from './M1S11/part4/m1s11.part4.modal/m1s11.part4.modal.component';
+import { M1s11Part5Component } from './M1S11/part5/m1s11.part5.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { M1s11Part4ModalComponent } from './M1S11/part4/m1s11.part4.modal/m1s11.
     M1s11Part2AppComponentComponent,
     M1s11Part3AppComponentComponent,
     M1s11Part4AppComponentComponent,
-    M1s11Part4ModalComponent
+    M1s11Part4ModalComponent,
+    M1s11Part5Component
   ],
   imports: [
     BrowserModule,

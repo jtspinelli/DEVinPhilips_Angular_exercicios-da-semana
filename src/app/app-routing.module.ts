@@ -13,6 +13,7 @@ import {M1s11Part1AppComponentComponent} from "./M1S11/part1/m1s11.part1.app.com
 import {M1s11Part2AppComponentComponent} from "./M1S11/part2/m1s11.part2.app.component.component";
 import {M1s11Part3AppComponentComponent} from "./M1S11/part3/m1s11.part3.app.component.component";
 import {M1s11Part4AppComponentComponent} from "./M1S11/part4/m1s11.part4.app.component.component";
+import {M1s11Part5Component} from "./M1S11/part5/m1s11.part5.component";
 
 const routes: Routes = [
   {path: 'm1s09/part1', component: Part1AppComponent},
@@ -30,7 +31,8 @@ const routes: Routes = [
       {path: 'part1', component: M1s11Part1AppComponentComponent},
       {path: 'part2', component: M1s11Part2AppComponentComponent},
       {path: 'part3', component: M1s11Part3AppComponentComponent},
-      {path: 'part4', component: M1s11Part4AppComponentComponent}
+      {path: 'part4', component: M1s11Part4AppComponentComponent},
+      {path: 'part5', component: M1s11Part5Component}
     ]},
 ];
 
