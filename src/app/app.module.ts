@@ -37,6 +37,8 @@ import { M1s11Part5Component } from './M1S11/part5/m1s11.part5.component';
 import { M1s11Part5CardComponent } from './M1S11/part5/m1s11.part5.card/m1s11.part5.card.component';
 import { M1s11Part6Component } from './M1S11/part6/m1s11.part6.component';
 import { M1s11Part7Component } from './M1S11/part7/m1s11.part7.component';
+import {ToastrModule} from "ngx-toastr";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -78,7 +80,9 @@ import { M1s11Part7Component } from './M1S11/part7/m1s11.part7.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
