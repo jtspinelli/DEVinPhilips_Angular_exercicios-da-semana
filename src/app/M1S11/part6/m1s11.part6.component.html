@@ -1,1 +1,19 @@
-<p>m1s11.part6 works!</p>
+<div class="container mt-5">
+  <input #input type="text" class="form-control" (keyup)="checkEmail(input.value)" placeholder="Digite seu email">
+
+  <div *ngIf="input.value.length > 0">
+    <div *ngIf="emailIsValid; then valid else invalid"></div>
+  </div>
+</div>
+
+<ng-template #valid>
+  <p class="alert alert-success mt-3">
+    Email válido.
+  </p>
+</ng-template>
+
+<ng-template #invalid>
+  <p class="alert alert-danger mt-3">
+    Email inválido.
+  </p>
+</ng-template>
